@@ -1,0 +1,1 @@
+# Padrões de Resiliência
