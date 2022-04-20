@@ -1,0 +1,4462 @@
+{
+  "paises": [
+    {
+      "id": {
+        "M49": 4,
+        "ISO-ALPHA-2": "AF",
+        "ISO-ALPHA-3": "AFG"
+      },
+      "nome": "Afeganistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 8,
+        "ISO-ALPHA-2": "AL",
+        "ISO-ALPHA-3": "ALB"
+      },
+      "nome": "Albânia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 12,
+        "ISO-ALPHA-2": "DZ",
+        "ISO-ALPHA-3": "DZA"
+      },
+      "nome": "Argélia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 20,
+        "ISO-ALPHA-2": "AD",
+        "ISO-ALPHA-3": "AND"
+      },
+      "nome": "Andorra",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 24,
+        "ISO-ALPHA-2": "AO",
+        "ISO-ALPHA-3": "AGO"
+      },
+      "nome": "Angola",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 28,
+        "ISO-ALPHA-2": "AG",
+        "ISO-ALPHA-3": "ATG"
+      },
+      "nome": "Antígua e Barbuda",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 31,
+        "ISO-ALPHA-2": "AZ",
+        "ISO-ALPHA-3": "AZE"
+      },
+      "nome": "Azerbaijão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 32,
+        "ISO-ALPHA-2": "AR",
+        "ISO-ALPHA-3": "ARG"
+      },
+      "nome": "Argentina",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 36,
+        "ISO-ALPHA-2": "AU",
+        "ISO-ALPHA-3": "AUS"
+      },
+      "nome": "Austrália",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 53
+        },
+        "nome": "Austrália e Nova Zelândia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 40,
+        "ISO-ALPHA-2": "AT",
+        "ISO-ALPHA-3": "AUT"
+      },
+      "nome": "Áustria",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 44,
+        "ISO-ALPHA-2": "BS",
+        "ISO-ALPHA-3": "BHS"
+      },
+      "nome": "Bahamas",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 48,
+        "ISO-ALPHA-2": "BH",
+        "ISO-ALPHA-3": "BHR"
+      },
+      "nome": "Barein",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 50,
+        "ISO-ALPHA-2": "BD",
+        "ISO-ALPHA-3": "BGD"
+      },
+      "nome": "Bangladesh",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 51,
+        "ISO-ALPHA-2": "AM",
+        "ISO-ALPHA-3": "ARM"
+      },
+      "nome": "Armênia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 52,
+        "ISO-ALPHA-2": "BB",
+        "ISO-ALPHA-3": "BRB"
+      },
+      "nome": "Barbados",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 56,
+        "ISO-ALPHA-2": "BE",
+        "ISO-ALPHA-3": "BEL"
+      },
+      "nome": "Bélgica",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 64,
+        "ISO-ALPHA-2": "BT",
+        "ISO-ALPHA-3": "BTN"
+      },
+      "nome": "Butão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 68,
+        "ISO-ALPHA-2": "BO",
+        "ISO-ALPHA-3": "BOL"
+      },
+      "nome": "Bolívia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 70,
+        "ISO-ALPHA-2": "BA",
+        "ISO-ALPHA-3": "BIH"
+      },
+      "nome": "Bósnia e Herzegovina",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 72,
+        "ISO-ALPHA-2": "BW",
+        "ISO-ALPHA-3": "BWA"
+      },
+      "nome": "Botsuana",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 18
+        },
+        "nome": "África meridional (Sul da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 76,
+        "ISO-ALPHA-2": "BR",
+        "ISO-ALPHA-3": "BRA"
+      },
+      "nome": "Brasil",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 84,
+        "ISO-ALPHA-2": "BZ",
+        "ISO-ALPHA-3": "BLZ"
+      },
+      "nome": "Belize",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 90,
+        "ISO-ALPHA-2": "SB",
+        "ISO-ALPHA-3": "SLB"
+      },
+      "nome": "Ilhas Salomão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 54
+        },
+        "nome": "Melanésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 96,
+        "ISO-ALPHA-2": "BN",
+        "ISO-ALPHA-3": "BRN"
+      },
+      "nome": "Brunei",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 100,
+        "ISO-ALPHA-2": "BG",
+        "ISO-ALPHA-3": "BGR"
+      },
+      "nome": "Bulgária",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 104,
+        "ISO-ALPHA-2": "MM",
+        "ISO-ALPHA-3": "MMR"
+      },
+      "nome": "Mianmar",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 108,
+        "ISO-ALPHA-2": "BI",
+        "ISO-ALPHA-3": "BDI"
+      },
+      "nome": "Burundi",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 112,
+        "ISO-ALPHA-2": "BY",
+        "ISO-ALPHA-3": "BLR"
+      },
+      "nome": "Belarus",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 116,
+        "ISO-ALPHA-2": "KH",
+        "ISO-ALPHA-3": "KHM"
+      },
+      "nome": "Camboja",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 120,
+        "ISO-ALPHA-2": "CM",
+        "ISO-ALPHA-3": "CMR"
+      },
+      "nome": "Camarões",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 124,
+        "ISO-ALPHA-2": "CA",
+        "ISO-ALPHA-3": "CAN"
+      },
+      "nome": "Canadá",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 21
+        },
+        "nome": "América do Norte",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 132,
+        "ISO-ALPHA-2": "CV",
+        "ISO-ALPHA-3": "CPV"
+      },
+      "nome": "Cabo Verde",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 140,
+        "ISO-ALPHA-2": "CF",
+        "ISO-ALPHA-3": "CAF"
+      },
+      "nome": "República Centro-Africana",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 144,
+        "ISO-ALPHA-2": "LK",
+        "ISO-ALPHA-3": "LKA"
+      },
+      "nome": "Sri Lanka",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 148,
+        "ISO-ALPHA-2": "TD",
+        "ISO-ALPHA-3": "TCD"
+      },
+      "nome": "Chade",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 152,
+        "ISO-ALPHA-2": "CL",
+        "ISO-ALPHA-3": "CHL"
+      },
+      "nome": "Chile",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 156,
+        "ISO-ALPHA-2": "CN",
+        "ISO-ALPHA-3": "CHN"
+      },
+      "nome": "China",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 30
+        },
+        "nome": "Ásia oriental (Leste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 170,
+        "ISO-ALPHA-2": "CO",
+        "ISO-ALPHA-3": "COL"
+      },
+      "nome": "Colômbia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 174,
+        "ISO-ALPHA-2": "KM",
+        "ISO-ALPHA-3": "COM"
+      },
+      "nome": "Comores",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 178,
+        "ISO-ALPHA-2": "CG",
+        "ISO-ALPHA-3": "COG"
+      },
+      "nome": "Congo",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 180,
+        "ISO-ALPHA-2": "CD",
+        "ISO-ALPHA-3": "COD"
+      },
+      "nome": "República Democrática do Congo",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 188,
+        "ISO-ALPHA-2": "CR",
+        "ISO-ALPHA-3": "CRI"
+      },
+      "nome": "Costa Rica",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 191,
+        "ISO-ALPHA-2": "HR",
+        "ISO-ALPHA-3": "HRV"
+      },
+      "nome": "Croácia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 192,
+        "ISO-ALPHA-2": "CU",
+        "ISO-ALPHA-3": "CUB"
+      },
+      "nome": "Cuba",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 196,
+        "ISO-ALPHA-2": "CY",
+        "ISO-ALPHA-3": "CYP"
+      },
+      "nome": "Chipre",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 203,
+        "ISO-ALPHA-2": "CZ",
+        "ISO-ALPHA-3": "CZE"
+      },
+      "nome": "República Tcheca",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 204,
+        "ISO-ALPHA-2": "BJ",
+        "ISO-ALPHA-3": "BEN"
+      },
+      "nome": "Benin",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 208,
+        "ISO-ALPHA-2": "DK",
+        "ISO-ALPHA-3": "DNK"
+      },
+      "nome": "Dinamarca",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 212,
+        "ISO-ALPHA-2": "DM",
+        "ISO-ALPHA-3": "DMA"
+      },
+      "nome": "Dominica",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 214,
+        "ISO-ALPHA-2": "DO",
+        "ISO-ALPHA-3": "DOM"
+      },
+      "nome": "República Dominicana",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 218,
+        "ISO-ALPHA-2": "EC",
+        "ISO-ALPHA-3": "ECU"
+      },
+      "nome": "Equador",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 222,
+        "ISO-ALPHA-2": "SV",
+        "ISO-ALPHA-3": "SLV"
+      },
+      "nome": "El Salvador",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 226,
+        "ISO-ALPHA-2": "GQ",
+        "ISO-ALPHA-3": "GNQ"
+      },
+      "nome": "Guiné Equatorial",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 231,
+        "ISO-ALPHA-2": "ET",
+        "ISO-ALPHA-3": "ETH"
+      },
+      "nome": "Etiópia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 232,
+        "ISO-ALPHA-2": "ER",
+        "ISO-ALPHA-3": "ERI"
+      },
+      "nome": "Eritreia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 233,
+        "ISO-ALPHA-2": "EE",
+        "ISO-ALPHA-3": "EST"
+      },
+      "nome": "Estônia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 242,
+        "ISO-ALPHA-2": "FJ",
+        "ISO-ALPHA-3": "FJI"
+      },
+      "nome": "Fiji",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 54
+        },
+        "nome": "Melanésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 246,
+        "ISO-ALPHA-2": "FI",
+        "ISO-ALPHA-3": "FIN"
+      },
+      "nome": "Finlândia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 250,
+        "ISO-ALPHA-2": "FR",
+        "ISO-ALPHA-3": "FRA"
+      },
+      "nome": "França",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 262,
+        "ISO-ALPHA-2": "DJ",
+        "ISO-ALPHA-3": "DJI"
+      },
+      "nome": "Djibouti",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 266,
+        "ISO-ALPHA-2": "GA",
+        "ISO-ALPHA-3": "GAB"
+      },
+      "nome": "Gabão",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 268,
+        "ISO-ALPHA-2": "GE",
+        "ISO-ALPHA-3": "GEO"
+      },
+      "nome": "Geórgia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 270,
+        "ISO-ALPHA-2": "GM",
+        "ISO-ALPHA-3": "GMB"
+      },
+      "nome": "Gâmbia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 276,
+        "ISO-ALPHA-2": "DE",
+        "ISO-ALPHA-3": "DEU"
+      },
+      "nome": "Alemanha",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 288,
+        "ISO-ALPHA-2": "GH",
+        "ISO-ALPHA-3": "GHA"
+      },
+      "nome": "Gana",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 296,
+        "ISO-ALPHA-2": "KI",
+        "ISO-ALPHA-3": "KIR"
+      },
+      "nome": "Kiribati",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 57
+        },
+        "nome": "Micronésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 300,
+        "ISO-ALPHA-2": "GR",
+        "ISO-ALPHA-3": "GRC"
+      },
+      "nome": "Grécia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 308,
+        "ISO-ALPHA-2": "GD",
+        "ISO-ALPHA-3": "GRD"
+      },
+      "nome": "Granada",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 320,
+        "ISO-ALPHA-2": "GT",
+        "ISO-ALPHA-3": "GTM"
+      },
+      "nome": "Guatemala",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 324,
+        "ISO-ALPHA-2": "GN",
+        "ISO-ALPHA-3": "GIN"
+      },
+      "nome": "Guiné",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 328,
+        "ISO-ALPHA-2": "GY",
+        "ISO-ALPHA-3": "GUY"
+      },
+      "nome": "Guiana",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 332,
+        "ISO-ALPHA-2": "HT",
+        "ISO-ALPHA-3": "HTI"
+      },
+      "nome": "Haiti",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 340,
+        "ISO-ALPHA-2": "HN",
+        "ISO-ALPHA-3": "HND"
+      },
+      "nome": "Honduras",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 348,
+        "ISO-ALPHA-2": "HU",
+        "ISO-ALPHA-3": "HUN"
+      },
+      "nome": "Hungria",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 352,
+        "ISO-ALPHA-2": "IS",
+        "ISO-ALPHA-3": "ISL"
+      },
+      "nome": "Islândia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 356,
+        "ISO-ALPHA-2": "IN",
+        "ISO-ALPHA-3": "IND"
+      },
+      "nome": "Índia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 360,
+        "ISO-ALPHA-2": "ID",
+        "ISO-ALPHA-3": "IDN"
+      },
+      "nome": "Indonésia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 364,
+        "ISO-ALPHA-2": "IR",
+        "ISO-ALPHA-3": "IRN"
+      },
+      "nome": "Irã",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 368,
+        "ISO-ALPHA-2": "IQ",
+        "ISO-ALPHA-3": "IRQ"
+      },
+      "nome": "Iraque",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 372,
+        "ISO-ALPHA-2": "IE",
+        "ISO-ALPHA-3": "IRL"
+      },
+      "nome": "Irlanda",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 376,
+        "ISO-ALPHA-2": "IL",
+        "ISO-ALPHA-3": "ISR"
+      },
+      "nome": "Israel",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 380,
+        "ISO-ALPHA-2": "IT",
+        "ISO-ALPHA-3": "ITA"
+      },
+      "nome": "Itália",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 384,
+        "ISO-ALPHA-2": "CI",
+        "ISO-ALPHA-3": "CIV"
+      },
+      "nome": "Costa do Marfim",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 388,
+        "ISO-ALPHA-2": "JM",
+        "ISO-ALPHA-3": "JAM"
+      },
+      "nome": "Jamaica",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 392,
+        "ISO-ALPHA-2": "JP",
+        "ISO-ALPHA-3": "JPN"
+      },
+      "nome": "Japão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 30
+        },
+        "nome": "Ásia oriental (Leste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 398,
+        "ISO-ALPHA-2": "KZ",
+        "ISO-ALPHA-3": "KAZ"
+      },
+      "nome": "Cazaquistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 143
+        },
+        "nome": "Ásia central",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 400,
+        "ISO-ALPHA-2": "JO",
+        "ISO-ALPHA-3": "JOR"
+      },
+      "nome": "Jordânia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 404,
+        "ISO-ALPHA-2": "KE",
+        "ISO-ALPHA-3": "KEN"
+      },
+      "nome": "Quênia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 408,
+        "ISO-ALPHA-2": "KP",
+        "ISO-ALPHA-3": "PRK"
+      },
+      "nome": "República Popular Democrática da Coreia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 30
+        },
+        "nome": "Ásia oriental (Leste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 410,
+        "ISO-ALPHA-2": "KR",
+        "ISO-ALPHA-3": "KOR"
+      },
+      "nome": "República da Coreia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 30
+        },
+        "nome": "Ásia oriental (Leste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 414,
+        "ISO-ALPHA-2": "KW",
+        "ISO-ALPHA-3": "KWT"
+      },
+      "nome": "Kuwait",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 417,
+        "ISO-ALPHA-2": "KG",
+        "ISO-ALPHA-3": "KGZ"
+      },
+      "nome": "Quirguistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 143
+        },
+        "nome": "Ásia central",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 418,
+        "ISO-ALPHA-2": "LA",
+        "ISO-ALPHA-3": "LAO"
+      },
+      "nome": "Laos",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 422,
+        "ISO-ALPHA-2": "LB",
+        "ISO-ALPHA-3": "LBN"
+      },
+      "nome": "Líbano",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 426,
+        "ISO-ALPHA-2": "LS",
+        "ISO-ALPHA-3": "LSO"
+      },
+      "nome": "Lesoto",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 18
+        },
+        "nome": "África meridional (Sul da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 428,
+        "ISO-ALPHA-2": "LV",
+        "ISO-ALPHA-3": "LVA"
+      },
+      "nome": "Letônia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 430,
+        "ISO-ALPHA-2": "LR",
+        "ISO-ALPHA-3": "LBR"
+      },
+      "nome": "Libéria",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 434,
+        "ISO-ALPHA-2": "LY",
+        "ISO-ALPHA-3": "LBY"
+      },
+      "nome": "Líbia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 438,
+        "ISO-ALPHA-2": "LI",
+        "ISO-ALPHA-3": "LIE"
+      },
+      "nome": "Liechtenstein",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 440,
+        "ISO-ALPHA-2": "LT",
+        "ISO-ALPHA-3": "LTU"
+      },
+      "nome": "Lituânia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 442,
+        "ISO-ALPHA-2": "LU",
+        "ISO-ALPHA-3": "LUX"
+      },
+      "nome": "Luxemburgo",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 450,
+        "ISO-ALPHA-2": "MG",
+        "ISO-ALPHA-3": "MDG"
+      },
+      "nome": "Madagáscar",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 454,
+        "ISO-ALPHA-2": "MW",
+        "ISO-ALPHA-3": "MWI"
+      },
+      "nome": "Malauí",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 458,
+        "ISO-ALPHA-2": "MY",
+        "ISO-ALPHA-3": "MYS"
+      },
+      "nome": "Malásia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 462,
+        "ISO-ALPHA-2": "MV",
+        "ISO-ALPHA-3": "MDV"
+      },
+      "nome": "Maldivas",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 466,
+        "ISO-ALPHA-2": "ML",
+        "ISO-ALPHA-3": "MLI"
+      },
+      "nome": "Mali",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 470,
+        "ISO-ALPHA-2": "MT",
+        "ISO-ALPHA-3": "MLT"
+      },
+      "nome": "Malta",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 478,
+        "ISO-ALPHA-2": "MR",
+        "ISO-ALPHA-3": "MRT"
+      },
+      "nome": "Mauritânia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 480,
+        "ISO-ALPHA-2": "MU",
+        "ISO-ALPHA-3": "MUS"
+      },
+      "nome": "Maurício",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 484,
+        "ISO-ALPHA-2": "MX",
+        "ISO-ALPHA-3": "MEX"
+      },
+      "nome": "México",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 492,
+        "ISO-ALPHA-2": "MC",
+        "ISO-ALPHA-3": "MCO"
+      },
+      "nome": "Mônaco",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 496,
+        "ISO-ALPHA-2": "MN",
+        "ISO-ALPHA-3": "MNG"
+      },
+      "nome": "Mongólia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 30
+        },
+        "nome": "Ásia oriental (Leste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 498,
+        "ISO-ALPHA-2": "MD",
+        "ISO-ALPHA-3": "MDA"
+      },
+      "nome": "Moldávia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 499,
+        "ISO-ALPHA-2": "ME",
+        "ISO-ALPHA-3": "MNE"
+      },
+      "nome": "Montenegro",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 504,
+        "ISO-ALPHA-2": "MA",
+        "ISO-ALPHA-3": "MAR"
+      },
+      "nome": "Marrocos",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 508,
+        "ISO-ALPHA-2": "MZ",
+        "ISO-ALPHA-3": "MOZ"
+      },
+      "nome": "Moçambique",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 512,
+        "ISO-ALPHA-2": "OM",
+        "ISO-ALPHA-3": "OMN"
+      },
+      "nome": "Omã",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 516,
+        "ISO-ALPHA-2": "NA",
+        "ISO-ALPHA-3": "NAM"
+      },
+      "nome": "Namíbia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 18
+        },
+        "nome": "África meridional (Sul da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 520,
+        "ISO-ALPHA-2": "NR",
+        "ISO-ALPHA-3": "NRU"
+      },
+      "nome": "Nauru",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 57
+        },
+        "nome": "Micronésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 524,
+        "ISO-ALPHA-2": "NP",
+        "ISO-ALPHA-3": "NPL"
+      },
+      "nome": "Nepal",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 528,
+        "ISO-ALPHA-2": "NL",
+        "ISO-ALPHA-3": "NLD"
+      },
+      "nome": "Holanda",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 548,
+        "ISO-ALPHA-2": "VU",
+        "ISO-ALPHA-3": "VUT"
+      },
+      "nome": "Vanuatu",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 54
+        },
+        "nome": "Melanésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 554,
+        "ISO-ALPHA-2": "NZ",
+        "ISO-ALPHA-3": "NZL"
+      },
+      "nome": "Nova Zelândia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 53
+        },
+        "nome": "Austrália e Nova Zelândia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 558,
+        "ISO-ALPHA-2": "NI",
+        "ISO-ALPHA-3": "NIC"
+      },
+      "nome": "Nicarágua",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 562,
+        "ISO-ALPHA-2": "NE",
+        "ISO-ALPHA-3": "NER"
+      },
+      "nome": "Níger",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 566,
+        "ISO-ALPHA-2": "NG",
+        "ISO-ALPHA-3": "NGA"
+      },
+      "nome": "Nigéria",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 578,
+        "ISO-ALPHA-2": "NO",
+        "ISO-ALPHA-3": "NOR"
+      },
+      "nome": "Noruega",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 583,
+        "ISO-ALPHA-2": "FM",
+        "ISO-ALPHA-3": "FSM"
+      },
+      "nome": "Micronésia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 57
+        },
+        "nome": "Micronésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 584,
+        "ISO-ALPHA-2": "MH",
+        "ISO-ALPHA-3": "MHL"
+      },
+      "nome": "Ilhas Marshall",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 57
+        },
+        "nome": "Micronésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 585,
+        "ISO-ALPHA-2": "PW",
+        "ISO-ALPHA-3": "PLW"
+      },
+      "nome": "Palau",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 57
+        },
+        "nome": "Micronésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 586,
+        "ISO-ALPHA-2": "PK",
+        "ISO-ALPHA-3": "PAK"
+      },
+      "nome": "Paquistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 34
+        },
+        "nome": "Ásia meridional (Sul da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 591,
+        "ISO-ALPHA-2": "PA",
+        "ISO-ALPHA-3": "PAN"
+      },
+      "nome": "Panamá",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 13
+        },
+        "nome": "América central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 598,
+        "ISO-ALPHA-2": "PG",
+        "ISO-ALPHA-3": "PNG"
+      },
+      "nome": "Papua Nova Guiné",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 54
+        },
+        "nome": "Melanésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 600,
+        "ISO-ALPHA-2": "PY",
+        "ISO-ALPHA-3": "PRY"
+      },
+      "nome": "Paraguai",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 604,
+        "ISO-ALPHA-2": "PE",
+        "ISO-ALPHA-3": "PER"
+      },
+      "nome": "Peru",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 608,
+        "ISO-ALPHA-2": "PH",
+        "ISO-ALPHA-3": "PHL"
+      },
+      "nome": "Filipinas",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 616,
+        "ISO-ALPHA-2": "PL",
+        "ISO-ALPHA-3": "POL"
+      },
+      "nome": "Polônia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 620,
+        "ISO-ALPHA-2": "PT",
+        "ISO-ALPHA-3": "PRT"
+      },
+      "nome": "Portugal",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 624,
+        "ISO-ALPHA-2": "GW",
+        "ISO-ALPHA-3": "GNB"
+      },
+      "nome": "Guiné-Bissau",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 626,
+        "ISO-ALPHA-2": "TL",
+        "ISO-ALPHA-3": "TLS"
+      },
+      "nome": "Timor-Leste",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 634,
+        "ISO-ALPHA-2": "QA",
+        "ISO-ALPHA-3": "QAT"
+      },
+      "nome": "Catar",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 642,
+        "ISO-ALPHA-2": "RO",
+        "ISO-ALPHA-3": "ROU"
+      },
+      "nome": "Romênia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 643,
+        "ISO-ALPHA-2": "RU",
+        "ISO-ALPHA-3": "RUS"
+      },
+      "nome": "Rússia (Federação Russa)",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 646,
+        "ISO-ALPHA-2": "RW",
+        "ISO-ALPHA-3": "RWA"
+      },
+      "nome": "Ruanda",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 659,
+        "ISO-ALPHA-2": "KN",
+        "ISO-ALPHA-3": "KNA"
+      },
+      "nome": "São Cristóvão e Nevis",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 662,
+        "ISO-ALPHA-2": "LC",
+        "ISO-ALPHA-3": "LCA"
+      },
+      "nome": "Santa Lúcia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 670,
+        "ISO-ALPHA-2": "VC",
+        "ISO-ALPHA-3": "VCT"
+      },
+      "nome": "São Vicente e Granadinas",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 674,
+        "ISO-ALPHA-2": "SM",
+        "ISO-ALPHA-3": "SMR"
+      },
+      "nome": "San Marino",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 678,
+        "ISO-ALPHA-2": "ST",
+        "ISO-ALPHA-3": "STP"
+      },
+      "nome": "São Tomé e Príncipe",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 17
+        },
+        "nome": "África central"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 682,
+        "ISO-ALPHA-2": "SA",
+        "ISO-ALPHA-3": "SAU"
+      },
+      "nome": "Arábia Saudita",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 686,
+        "ISO-ALPHA-2": "SN",
+        "ISO-ALPHA-3": "SEN"
+      },
+      "nome": "Senegal",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 688,
+        "ISO-ALPHA-2": "RS",
+        "ISO-ALPHA-3": "SRB"
+      },
+      "nome": "Sérvia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 690,
+        "ISO-ALPHA-2": "SC",
+        "ISO-ALPHA-3": "SYC"
+      },
+      "nome": "Seichelles",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 694,
+        "ISO-ALPHA-2": "SL",
+        "ISO-ALPHA-3": "SLE"
+      },
+      "nome": "Serra Leoa",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 702,
+        "ISO-ALPHA-2": "SG",
+        "ISO-ALPHA-3": "SGP"
+      },
+      "nome": "Singapura",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 703,
+        "ISO-ALPHA-2": "SK",
+        "ISO-ALPHA-3": "SVK"
+      },
+      "nome": "Eslováquia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 704,
+        "ISO-ALPHA-2": "VN",
+        "ISO-ALPHA-3": "VNM"
+      },
+      "nome": "Vietnã",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 705,
+        "ISO-ALPHA-2": "SI",
+        "ISO-ALPHA-3": "SVN"
+      },
+      "nome": "Eslovênia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 706,
+        "ISO-ALPHA-2": "SO",
+        "ISO-ALPHA-3": "SOM"
+      },
+      "nome": "Somália",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 710,
+        "ISO-ALPHA-2": "ZA",
+        "ISO-ALPHA-3": "ZAF"
+      },
+      "nome": "África do Sul",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 18
+        },
+        "nome": "África meridional (Sul da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 716,
+        "ISO-ALPHA-2": "ZW",
+        "ISO-ALPHA-3": "ZWE"
+      },
+      "nome": "Zimbábue",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 724,
+        "ISO-ALPHA-2": "ES",
+        "ISO-ALPHA-3": "ESP"
+      },
+      "nome": "Espanha",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 728,
+        "ISO-ALPHA-2": "SS",
+        "ISO-ALPHA-3": "SSD"
+      },
+      "nome": "Sudão do Sul",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 729,
+        "ISO-ALPHA-2": "SD",
+        "ISO-ALPHA-3": "SDN"
+      },
+      "nome": "Sudão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 740,
+        "ISO-ALPHA-2": "SR",
+        "ISO-ALPHA-3": "SUR"
+      },
+      "nome": "Suriname",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 748,
+        "ISO-ALPHA-2": "SZ",
+        "ISO-ALPHA-3": "SWZ"
+      },
+      "nome": "Eswatini",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 18
+        },
+        "nome": "África meridional (Sul da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 752,
+        "ISO-ALPHA-2": "SE",
+        "ISO-ALPHA-3": "SWE"
+      },
+      "nome": "Suécia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 756,
+        "ISO-ALPHA-2": "CH",
+        "ISO-ALPHA-3": "CHE"
+      },
+      "nome": "Suíça",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 155
+        },
+        "nome": "Europa ocidental (Oeste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 760,
+        "ISO-ALPHA-2": "SY",
+        "ISO-ALPHA-3": "SYR"
+      },
+      "nome": "Síria",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 762,
+        "ISO-ALPHA-2": "TJ",
+        "ISO-ALPHA-3": "TJK"
+      },
+      "nome": "Tadjiquistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 143
+        },
+        "nome": "Ásia central",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 764,
+        "ISO-ALPHA-2": "TH",
+        "ISO-ALPHA-3": "THA"
+      },
+      "nome": "Tailândia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 35
+        },
+        "nome": "Sudeste da Ásia",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 768,
+        "ISO-ALPHA-2": "TG",
+        "ISO-ALPHA-3": "TGO"
+      },
+      "nome": "Togo",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 776,
+        "ISO-ALPHA-2": "TO",
+        "ISO-ALPHA-3": "TON"
+      },
+      "nome": "Tonga",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 61
+        },
+        "nome": "Polinésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 780,
+        "ISO-ALPHA-2": "TT",
+        "ISO-ALPHA-3": "TTO"
+      },
+      "nome": "Trinidad e Tobago",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 29
+        },
+        "nome": "Caribe"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 784,
+        "ISO-ALPHA-2": "AE",
+        "ISO-ALPHA-3": "ARE"
+      },
+      "nome": "Emirados Árabes Unidos",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 788,
+        "ISO-ALPHA-2": "TN",
+        "ISO-ALPHA-3": "TUN"
+      },
+      "nome": "Tunísia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 792,
+        "ISO-ALPHA-2": "TR",
+        "ISO-ALPHA-3": "TUR"
+      },
+      "nome": "Turquia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 795,
+        "ISO-ALPHA-2": "TM",
+        "ISO-ALPHA-3": "TKM"
+      },
+      "nome": "Turcomenistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 143
+        },
+        "nome": "Ásia central",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 798,
+        "ISO-ALPHA-2": "TV",
+        "ISO-ALPHA-3": "TUV"
+      },
+      "nome": "Tuvalu",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 61
+        },
+        "nome": "Polinésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 800,
+        "ISO-ALPHA-2": "UG",
+        "ISO-ALPHA-3": "UGA"
+      },
+      "nome": "Uganda",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 804,
+        "ISO-ALPHA-2": "UA",
+        "ISO-ALPHA-3": "UKR"
+      },
+      "nome": "Ucrânia",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 151
+        },
+        "nome": "Europa oriental (Leste da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 807,
+        "ISO-ALPHA-2": "MK",
+        "ISO-ALPHA-3": "MKD"
+      },
+      "nome": "Macedônia do Norte",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 39
+        },
+        "nome": "Europa meridional  (Sul da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 818,
+        "ISO-ALPHA-2": "EG",
+        "ISO-ALPHA-3": "EGY"
+      },
+      "nome": "Egito",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 15
+        },
+        "nome": "África setentrional (Norte da África)",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 826,
+        "ISO-ALPHA-2": "GB",
+        "ISO-ALPHA-3": "GBR"
+      },
+      "nome": "Reino Unido",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 154
+        },
+        "nome": "Europa setentrional (Norte da Europa)",
+        "regiao": {
+          "id": {
+            "M49": 150
+          },
+          "nome": "Europa"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 834,
+        "ISO-ALPHA-2": "TZ",
+        "ISO-ALPHA-3": "TZA"
+      },
+      "nome": "Tanzânia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 840,
+        "ISO-ALPHA-2": "US",
+        "ISO-ALPHA-3": "USA"
+      },
+      "nome": "Estados Unidos da América",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 21
+        },
+        "nome": "América do Norte",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 854,
+        "ISO-ALPHA-2": "BF",
+        "ISO-ALPHA-3": "BFA"
+      },
+      "nome": "Burkina Faso",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 11
+        },
+        "nome": "África ocidental (Oeste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 858,
+        "ISO-ALPHA-2": "UY",
+        "ISO-ALPHA-3": "URY"
+      },
+      "nome": "Uruguai",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 860,
+        "ISO-ALPHA-2": "UZ",
+        "ISO-ALPHA-3": "UZB"
+      },
+      "nome": "Uzbequistão",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 143
+        },
+        "nome": "Ásia central",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 862,
+        "ISO-ALPHA-2": "VE",
+        "ISO-ALPHA-3": "VEN"
+      },
+      "nome": "Venezuela",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 5
+        },
+        "nome": "América do sul"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 419
+        },
+        "nome": "América Latina e Caribe",
+        "regiao": {
+          "id": {
+            "M49": 19
+          },
+          "nome": "América"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 882,
+        "ISO-ALPHA-2": "WS",
+        "ISO-ALPHA-3": "WSM"
+      },
+      "nome": "Samoa",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 61
+        },
+        "nome": "Polinésia",
+        "regiao": {
+          "id": {
+            "M49": 9
+          },
+          "nome": "Oceania"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 887,
+        "ISO-ALPHA-2": "YE",
+        "ISO-ALPHA-3": "YEM"
+      },
+      "nome": "Iêmen",
+      "regiao-intermediaria": null,
+      "sub-regiao": {
+        "id": {
+          "M49": 145
+        },
+        "nome": "Ásia ocidental  (Oeste da Ásia)",
+        "regiao": {
+          "id": {
+            "M49": 142
+          },
+          "nome": "Ásia"
+        }
+      }
+    },
+    {
+      "id": {
+        "M49": 894,
+        "ISO-ALPHA-2": "ZM",
+        "ISO-ALPHA-3": "ZMB"
+      },
+      "nome": "Zâmbia",
+      "regiao-intermediaria": {
+        "id": {
+          "M49": 14
+        },
+        "nome": "África oriental (Leste da África)"
+      },
+      "sub-regiao": {
+        "id": {
+          "M49": 202
+        },
+        "nome": "África subsaariana",
+        "regiao": {
+          "id": {
+            "M49": 2
+          },
+          "nome": "África"
+        }
+      }
+    }
+  ]
+}
