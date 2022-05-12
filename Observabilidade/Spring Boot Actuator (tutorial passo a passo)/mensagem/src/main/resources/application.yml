@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/algamensagens?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password:
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  profiles:
+    active: 
+      - dev
+      - jpa
+
+integracao:
+  api:
+    localidades:
+      url: 'http://localhost:3000'
+      paises-path: '/paises'
