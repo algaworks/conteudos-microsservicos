@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/user?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password:
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: none
+server:
+  port: 8082
+
