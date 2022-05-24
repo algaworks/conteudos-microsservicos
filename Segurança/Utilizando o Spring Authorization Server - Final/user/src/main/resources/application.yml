@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/user?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password:
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8082
+          #jwk-set-uri: http://localhost:8082/oauth2/jwks

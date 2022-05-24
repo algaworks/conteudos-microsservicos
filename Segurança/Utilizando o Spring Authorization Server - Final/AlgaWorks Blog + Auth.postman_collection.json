@@ -1,0 +1,658 @@
+{
+	"info": {
+		"_postman_id": "9f46d1cc-94e6-4f8f-a55d-1bf1c3b24ca8",
+		"name": "AlgaWorks Blog + Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Create User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhd3VzZXIiLCJhdWQiOiJhd3VzZXIiLCJuYmYiOjE2NTI4MTc3NzMsInNjb3BlIjpbInVzZXJzOnJlYWQiXSwiaXNzIjoiaHR0cDpcL1wvbG9jYWxob3N0OjgwODIiLCJleHAiOjE2NTI4MTgwNzMsImlhdCI6MTY1MjgxNzc3M30.c9cPWl-3nEG7991Epv9vfDbVr9Pb1BYIC9SASPaSllA4NUvo2SdjO03N6q6GyGvR1MQV_53T1vFXix8C7y0fVmB6nlSzrQcySY8uGAyKZzp5eDJMQsN2F1tW6nHuPK3ycHQQNeILIHE6PDjpXk1gFAG_b8Q7dIthY4PG_ITD58XqXv_1mKM5A8w03AqQO2kRiZylj6_g5gKnEJNcrnGpUc9dyxJt2kkS3L7BXPpluuF-GiuqIieeFCgX9mGEPBaMakYfaLFFdOIzrIFDXyBZ6jNuFoPLCJYDtEmP3dFSb0dH1327Wuzbn2h7sVttKTdjkRnPxAy9MiZousiGOturcA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"novoadmin@email.com\",\n    \"name\": \"Novo Admin\",\n    \"password\": \"123456\",\n    \"type\": \"ADMIN\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Users",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhd3VzZXIiLCJhdWQiOiJhd3VzZXIiLCJuYmYiOjE2NTI4MTc3NzMsInNjb3BlIjpbInVzZXJzOnJlYWQiXSwiaXNzIjoiaHR0cDpcL1wvbG9jYWxob3N0OjgwODIiLCJleHAiOjE2NTI4MTgwNzMsImlhdCI6MTY1MjgxNzc3M30.c9cPWl-3nEG7991Epv9vfDbVr9Pb1BYIC9SASPaSllA4NUvo2SdjO03N6q6GyGvR1MQV_53T1vFXix8C7y0fVmB6nlSzrQcySY8uGAyKZzp5eDJMQsN2F1tW6nHuPK3ycHQQNeILIHE6PDjpXk1gFAG_b8Q7dIthY4PG_ITD58XqXv_1mKM5A8w03AqQO2kRiZylj6_g5gKnEJNcrnGpUc9dyxJt2kkS3L7BXPpluuF-GiuqIieeFCgX9mGEPBaMakYfaLFFdOIzrIFDXyBZ6jNuFoPLCJYDtEmP3dFSb0dH1327Wuzbn2h7sVttKTdjkRnPxAy9MiZousiGOturcA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get User By Id",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/users/:userId",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"users",
+								":userId"
+							],
+							"variable": [
+								{
+									"key": "userId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "My User",
+			"item": [
+				{
+					"name": "My User",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhZG1pbkBlbWFpbC5jb20iLCJhdWQiOiJhd2Jsb2ciLCJuYmYiOjE2NTI4MTY1NjQsInVzZXJfaWQiOiIxIiwic2NvcGUiOlsibXl1c2VyOnJlYWQiLCJwb3N0czp3cml0ZSIsIm15dXNlcjp3cml0ZSJdLCJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODA4MiIsInVzZXJfZnVsbG5hbWUiOiJBbGV4IFNpbHZhIiwiZXhwIjoxNjUyODE3NDY0LCJpYXQiOjE2NTI4MTY1NjQsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iXX0.BpwaxTHEfYVIJaS4xXl3kB9A-YAWu1QuJDkgNEdL30607QzyjFSk56hdRJbn6_KFleQRsfZCIgWZg6Ih-xFyVJRUDEzS8VAJR4B4zNs17uZLXdkOVjOjR13kGJPVM2g9SKzN2Mwyjz7R2OxF4tIf0TTAo5HXDNXCvcGjm1oS6WL2OiiApAfh1jTRr6T2kgHBASLqGoNyOGWxzMZDI0Rm_jeXyuiwDTHpwKXsBMzrGbshOIA1RE_TK1RaMb_96-YKT20ZfAGmZ9dVsHIZootWOOQz11pYnJOUklkaPDLurtqgvb9lt0AWrmToz8dB6dg2RaGaCcQwN6ZZxlXR6NbbIw",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create User (Public)",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"maria@email.com\",\n    \"name\": \"Maria\",\n    \"password\": \"123456\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/user",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Find Post By Id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/posts/:postId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"posts",
+								":postId"
+							],
+							"variable": [
+								{
+									"key": "postId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Posts",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/posts/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Post",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJqb2FvQGVtYWlsLmNvbSIsImF1ZCI6ImF3YmxvZyIsIm5iZiI6MTY1MjgxODk0NSwidXNlcl9pZCI6IjIiLCJzY29wZSI6WyJteXVzZXI6cmVhZCIsInBvc3RzOndyaXRlIiwibXl1c2VyOndyaXRlIl0sImlzcyI6Imh0dHA6XC9cL2xvY2FsaG9zdDo4MDgyIiwidXNlcl9mdWxsbmFtZSI6Ikpvw6NvIGRhIFNpbHZhIiwiZXhwIjoxNjUyODE5ODQ1LCJpYXQiOjE2NTI4MTg5NDUsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl19.YVQrRcWvxhC4VFbx9p3Xr8e15XKlzP8gV-uhdPZqMGMTLJpZ8tnXU5krKx-if_TwiTpg9SlNLXSxOOOKP58oDyxbL8_1mSqxB1vGuZJtTkDScNuwAY87qnHx05tkVMp9MuiGCbFYe7eziG7VA-x_XyBcff5K21Zjhp_JroC1Z28Sq_M1arpQ1k2btjipnoYW2J-MVg8ri1uth4kjoVK1TI4i_mjfrYtJpW0s9tWdj7LrLajPSh_xPltQq5VzZTMvJZZkUgnWwFf9S3rbca-krrmkxI53u1BzcgVWc96LXlFKX4aBhKdCau5J14Vvj29JvVMXelw63w56jXSsUULr8w",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Olá mundo\",\n    \"content\": \"ABC\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8081/posts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"posts"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Auth with Client Credentials - AWUSER",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "awuser",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								},
+								{
+									"key": "scope",
+									"value": "users:read",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8082/oauth2/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auth with Auth Code - AWBLOG",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "awblog",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "authorization_code",
+									"type": "text"
+								},
+								{
+									"key": "code",
+									"value": "1HRPkQUUcO2XcIF_bxuRT-EXebFNaBGybdit0nRPpYRMx3Hc97moP-W17VrQXNZZM1Tx5izfKHB8p3b-JYPoBRVgGM_KS8LzvNihxYQoeOd2tkRVIgPbyKpXwYTR6gZu",
+									"type": "text"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "https://oidcdebugger.com/debug",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8082/oauth2/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auth with Refresh Token - AWBLOG",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "awblog",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text"
+								},
+								{
+									"key": "refresh_token",
+									"value": "ptI9ZGLuYvJA1jGXng66-tMA0wuAQOzuZMjkky254DEjgXtzkwijPJByz2FS051PPJNLAPAjSGJqjDs0_w7YYTiGilpsIfeilmhBVr-vLsS1OMSP_3Wa1vNs0LeowfyB",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8082/oauth2/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"token"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auth introspect",
+					"request": {
+						"auth": {
+							"type": "oauth2",
+							"oauth2": [
+								{
+									"key": "tokenType",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "accessToken",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJqb2FvQGVtYWlsLmNvbSIsImF1ZCI6ImF3YmxvZyIsIm5iZiI6MTY1MjgxODk0NSwidXNlcl9pZCI6IjIiLCJzY29wZSI6WyJteXVzZXI6cmVhZCIsInBvc3RzOndyaXRlIiwibXl1c2VyOndyaXRlIl0sImlzcyI6Imh0dHA6XC9cL2xvY2FsaG9zdDo4MDgyIiwidXNlcl9mdWxsbmFtZSI6Ikpvw6NvIGRhIFNpbHZhIiwiZXhwIjoxNjUyODE5ODQ1LCJpYXQiOjE2NTI4MTg5NDUsImF1dGhvcml0aWVzIjpbIlJPTEVfQ0xJRU5UIl19.YVQrRcWvxhC4VFbx9p3Xr8e15XKlzP8gV-uhdPZqMGMTLJpZ8tnXU5krKx-if_TwiTpg9SlNLXSxOOOKP58oDyxbL8_1mSqxB1vGuZJtTkDScNuwAY87qnHx05tkVMp9MuiGCbFYe7eziG7VA-x_XyBcff5K21Zjhp_JroC1Z28Sq_M1arpQ1k2btjipnoYW2J-MVg8ri1uth4kjoVK1TI4i_mjfrYtJpW0s9tWdj7LrLajPSh_xPltQq5VzZTMvJZZkUgnWwFf9S3rbca-krrmkxI53u1BzcgVWc96LXlFKX4aBhKdCau5J14Vvj29JvVMXelw63w56jXSsUULr8w",
+									"type": "string"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "https://oauth.pstmn.io/v1/callback",
+									"type": "string"
+								},
+								{
+									"key": "useBrowser",
+									"value": false,
+									"type": "boolean"
+								},
+								{
+									"key": "scope",
+									"value": "myuser:read myuser:write posts:write",
+									"type": "string"
+								},
+								{
+									"key": "state",
+									"value": "",
+									"type": "string"
+								},
+								{
+									"key": "accessTokenUrl",
+									"value": "http://localhost:8082/oauth2/token",
+									"type": "string"
+								},
+								{
+									"key": "authUrl",
+									"value": "http://localhost:8082/oauth2/authorize",
+									"type": "string"
+								},
+								{
+									"key": "clientSecret",
+									"value": "123456",
+									"type": "string"
+								},
+								{
+									"key": "clientId",
+									"value": "awblog",
+									"type": "string"
+								},
+								{
+									"key": "grant_type",
+									"value": "authorization_code_with_pkce",
+									"type": "string"
+								},
+								{
+									"key": "tokenName",
+									"value": "awblogtoken",
+									"type": "string"
+								},
+								{
+									"key": "headerPrefix",
+									"value": "Bearer",
+									"type": "string"
+								},
+								{
+									"key": "addTokenTo",
+									"value": "header",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "eyJ4NXQjUzI1NiI6IjhFdU84S0djbnFnaGxGcHdhbUlybHpLRXhEcHFKeGpHVkRNNzByUFhydVkiLCJraWQiOiJhd2Jsb2ciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhd3VzZXIiLCJhdWQiOiJhd3VzZXIiLCJuYmYiOjE2NTI4MTczODgsInNjb3BlIjpbInVzZXJzOnJlYWQiXSwiaXNzIjoiaHR0cDpcL1wvbG9jYWxob3N0OjgwODIiLCJleHAiOjE2NTI4MTc2ODgsImlhdCI6MTY1MjgxNzM4OH0.bRmELqCFntbP_hXNjWRc-1cIuc3LHIiQQJRoJ466HZ0_q4TxnHLCHUyosYgjQMHE0Q0Npo9nmXCgm97X4MRu-NrL0Cqs-S5FW8fycKZCdG_FJv7XC0JTslf9fEAMuCvE63OJr5wGDn_Pd0lj0SO9kIfeTrtxEwHsOj2cknBEo7qklH3oUlqgzkuHKhlOeKoT2ymZPha8H6LlPWFuv-M3RezgxBz7HiO2Sq6lV_xRlp6QCY6zP_yKKgnYks1Hpv04BBhq9woTNIGhZttOFeBNRbb3GMJSivTbs7vmh3m0pI77MzaoIaKpwVeJ1sBaTWilHf0KCq0DW3Rj6k1vG5xLQg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8082/oauth2/introspect",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"introspect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auth revoke",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "awblog",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "123456",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "token",
+									"value": "ptI9ZGLuYvJA1jGXng66-tMA0wuAQOzuZMjkky254DEjgXtzkwijPJByz2FS051PPJNLAPAjSGJqjDs0_w7YYTiGilpsIfeilmhBVr-vLsS1OMSP_3Wa1vNs0LeowfyB",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8082/oauth2/revoke",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"revoke"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Auth JWKS",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/oauth2/jwks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"jwks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Request Auth Code (Navegador)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/oauth2/authorize?response_type=code&client_id=awblog&state=abc&redirect_uri=https://oidcdebugger.com/debug&scope=myuser:read myuser:write posts:write",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"oauth2",
+								"authorize"
+							],
+							"query": [
+								{
+									"key": "response_type",
+									"value": "code"
+								},
+								{
+									"key": "client_id",
+									"value": "awblog"
+								},
+								{
+									"key": "state",
+									"value": "abc"
+								},
+								{
+									"key": "redirect_uri",
+									"value": "https://oidcdebugger.com/debug"
+								},
+								{
+									"key": "scope",
+									"value": "myuser:read myuser:write posts:write"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

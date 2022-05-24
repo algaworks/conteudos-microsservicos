@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/user?createDatabaseIfNotExist=true&serverTimezone=UTC
+    password:
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: none
+  session:
+    store-type: jdbc
+server:
+  port: 8082
+
+aw:
+  auth:
+    provider-uri: "http://localhost:8082"
+    jks:
+      keypass: 123456
+      storepass: 123456
+      alias: awblog
+      path: keystore/awblog.jks
