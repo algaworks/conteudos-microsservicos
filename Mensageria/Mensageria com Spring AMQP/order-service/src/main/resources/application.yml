@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/orders?createDatabaseIfNotExist=true&serverTimezone=UTC&useSSL=false
+    password: ''
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: 'update'
