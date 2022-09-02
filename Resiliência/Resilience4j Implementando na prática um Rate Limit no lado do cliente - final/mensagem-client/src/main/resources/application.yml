@@ -1,0 +1,10 @@
+resilience4j:
+  ratelimiter:
+    configs:
+      default:
+        timeoutDuration: 10ms
+    instances:
+      MessagemRateLimiter:
+        baseConfig: default
+        limitForPeriod: 17
+        limitRefreshPeriod: 3s
