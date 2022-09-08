@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "aed1fa7c-7a7c-4464-a0a0-5e292291dd98",
+		"name": "Alga Entregas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4405010"
+	},
+	"item": [
+		{
+			"name": "Listar encomendas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/encomendas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"encomendas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar encomenda",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"endereco\": \"Avenida Brasil 1000\",\n    \"complemento\": \"apto 104\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/encomendas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"encomendas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Marcar como em andamento",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/encomendas/1/marcar-como-em-andamento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"encomendas",
+						"1",
+						"marcar-como-em-andamento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Marcar como entregue",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/encomendas/1/marcar-como-entregue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"encomendas",
+						"1",
+						"marcar-como-entregue"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

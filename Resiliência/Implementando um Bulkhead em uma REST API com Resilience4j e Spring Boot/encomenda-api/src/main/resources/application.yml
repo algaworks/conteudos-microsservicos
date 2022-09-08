@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:mysql://${DB_HOST:localhost:3306}/aw_encomenda?createDatabaseIfNotExist=true&serverTimezone=UTC
+  jpa:
+    show-sql: 'false'
+    hibernate:
+      ddl-auto: update
