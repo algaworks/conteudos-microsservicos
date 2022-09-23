@@ -1,0 +1,16 @@
+server:
+  port: 8085
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/aw_healthy_metric?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+  rabbitmq:
+    password: rabbitmq
+    host: localhost
+    port: 5672
+    username: rabbitmq

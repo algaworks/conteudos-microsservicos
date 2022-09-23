@@ -1,0 +1,24 @@
+server:
+  port: 8084
+
+spring:
+  rabbitmq:
+    password: rabbitmq
+    host: localhost
+    port: 5672
+    username: rabbitmq
+  cloud:
+    stream:
+      function:
+        definition: healthCheckTaskCommandProcessor
+      bindings:
+        healthCheckTaskCommandProcessor-in-0:
+          destination: health-check.v1.command.execute-task
+          group: checker
+        healthCheckTaskCommandProcessor-out-0:
+          destination: health-check.v1.event.task-result
+      rabbit:
+        bindings:
+          healthCheckTaskCommandProcessor-in-0:
+            consumer:
+              auto-bind-dlq: true
