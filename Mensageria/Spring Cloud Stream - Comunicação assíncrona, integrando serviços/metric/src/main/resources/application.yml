@@ -14,3 +14,16 @@ spring:
     host: localhost
     port: 5672
     username: rabbitmq
+  cloud:
+    stream:
+      function:
+        definition: healthCheckResultEventListener
+      bindings:
+        healthCheckResultEventListener-in-0:
+          destination: health-check.v1.event.task-result
+          group: metric
+      rabbit:
+        bindings:
+          healthCheckResultEventListener-in-0:
+            consumer:
+              auto-bind-dlq: true

@@ -15,11 +15,13 @@ import java.util.UUID;
 public class AppManagementService {
 
     private final AppRepository apps;
+    private final AppEventGateway appEventGateway;
 
     @Transactional
     public App create(App app) {
         Validate.notNull(app);
         apps.saveAndFlush(app);
+        appEventGateway.sendAppCreatedEvent(app);
 
         return app;
     }
@@ -32,6 +34,7 @@ public class AppManagementService {
 
         existingApp.update(updatedApp);
         apps.saveAndFlush(existingApp);
+        appEventGateway.sendAppUpdatedEvent(existingApp);
 
         return existingApp;
     }

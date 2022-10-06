@@ -9,3 +9,15 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/aw_healthy_app?createDatabaseIfNotExist=true&serverTimezone=UTC
     username: root
+  rabbitmq:
+    username: rabbitmq
+    password: rabbitmq
+    host: localhost
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        appCreatedSupplier-out-0:
+          destination: app.v1.event.app-created
+        appUpdatedSupplier-out-0:
+          destination: app.v1.event.app-updated
