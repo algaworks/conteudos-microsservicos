@@ -1,0 +1,28 @@
+version: '3'
+
+networks:
+  default-network:
+    driver: bridge
+services:
+  client:
+    image: algaworks/alga-alerts-client:latest
+    networks:
+      - default-network
+    ports:
+      - 1313:80
+  lorem-rss:
+    image: algaworks/alga-lorem-rss:latest
+    ports:
+      - "5000:5000"
+    networks:
+      - default-network
+  rabbitmq:
+    image: rabbitmq:3.7.8-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      - RABBITMQ_DEFAULT_USER=rabbitmq
+      - RABBITMQ_DEFAULT_PASS=rabbitmq
+    networks:
+      - default-network

@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    username: rabbitmq
+    password: rabbitmq
+    host: localhost
+    port: 5672
+  cloud:
+    stream:
+      function:
+        definition: feedEventConsumer
+      bindings:
+        feedEventConsumer-in-0:
+          destination: feeds.v1.events.new-post

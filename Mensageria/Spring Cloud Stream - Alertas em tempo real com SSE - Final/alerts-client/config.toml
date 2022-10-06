@@ -1,0 +1,3 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'pt-br'
+title = 'Alga Feed'
