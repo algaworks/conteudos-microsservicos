@@ -1,0 +1,37 @@
+server:
+  port: 8083
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  datasource:
+    url: jdbc:mysql://localhost:3306/aw_healthy_scheduler?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+  rabbitmq:
+    password: rabbitmq
+    host: localhost
+    port: 5672
+    username: rabbitmq
+  cloud:
+    stream:
+      function:
+        definition: appCreatedEventListener;appUpdatedEventListener
+      bindings:
+        healthCheckTaskCommand-out-0:
+          destination: health-check.v1.command.execute-task
+        appCreatedEventListener-in-0:
+          destination: app.v1.event.app-created
+          group: scheduler
+        appUpdatedEventListener-in-0:
+          destination: app.v1.event.app-updated
+          group: scheduler
+      rabbit:
+        bindings:
+          appCreatedEventListener-in-0:
+            consumer:
+              auto-bind-dlq: true
+          appUpdatedEventListener-in-0:
+            consumer:
+              auto-bind-dlq: true
