@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "4a50b603-ba33-4795-9512-fab131335dfc",
+		"name": "AW Ebooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4405010"
+	},
+	"item": [
+		{
+			"name": "Document Upload Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fileName\": \"algaworks-livro-spring-boot-v3.0.pdf\",\r\n    \"contentType\": \"application/pdf\",\r\n    \"contentLength\": \"2009921\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/uploads/documents",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploads",
+						"documents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Image Upload Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"fileName\": \"cover-spring.png\",\r\n    \"contentType\": \"image/png\",\r\n    \"contentLength\": \"79489\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/uploads/images",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploads",
+						"images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List ebook",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ebooks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ebooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ebook by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/ebooks/:ebookId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ebooks",
+						":ebookId"
+					],
+					"variable": [
+						{
+							"key": "ebookId",
+							"value": "cf5badbb-9472-4c6d-a4b9-73188d37da64"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Ebook",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Spring Boot\",\r\n    \"author\": \"Thiago\",\r\n    \"coverId\": \"2d1c8ebe-a323-4bd9-b394-cd3fc66325dd\",\r\n    \"attachmentId\": \"1fd9ad8c-91f9-4764-9559-162be0649806\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ebooks",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ebooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Ebook",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"JPA 2.0\",\r\n    \"autor\": \"Thiago\",\r\n    \"author\": \"Thiago\",\r\n    \"coverId\": \"6beb4bab-734c-45ae-be11-faa82503c96e\",\r\n    \"attachmentId\": \"06b0e8b9-6c4a-4c2d-bf4d-534010dc613b\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/ebooks/:ebookId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"ebooks",
+						":ebookId"
+					],
+					"variable": [
+						{
+							"key": "ebookId",
+							"value": "a2698e45-9b2e-4ec9-80e8-844e90489a2a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Download document",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/downloads/:fileReferenceId/:fileName",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"downloads",
+						":fileReferenceId",
+						":fileName"
+					],
+					"variable": [
+						{
+							"key": "fileReferenceId",
+							"value": "1fd9ad8c-91f9-4764-9559-162be0649806"
+						},
+						{
+							"key": "fileName",
+							"value": "algaworks-livro-spring-boot-v3.0.pdf"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

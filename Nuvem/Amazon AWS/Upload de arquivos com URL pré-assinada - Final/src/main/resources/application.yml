@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/aw_ebooks?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+aw:
+  storage:
+    s3:
+      key-id: ${S3_KEY_ID}
+      key-secret: ${S3_KEY_SECRET}
+      bucket: 'awebooks'
+      region: 'us-east-1'
+    image:
+      download-url: 'https://awebooks.s3.amazonaws.com'
+    document:
+      download-url: 'http://localhost:8080/downloads'
