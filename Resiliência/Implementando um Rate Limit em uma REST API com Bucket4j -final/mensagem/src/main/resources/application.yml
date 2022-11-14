@@ -1,0 +1,39 @@
+spring:
+  sql.init.mode: always
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    username: root
+    url: jdbc:mysql://localhost:3306/awmensagens?createDatabaseIfNotExist=true&serverTimezone=UTC
+  jpa:
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+  cache:
+    type: jcache
+    jcache:
+      provider: com.hazelcast.cache.impl.HazelcastServerCachingProvider
+      config: classpath:hazelcast.xml
+bucket4j:
+  enabled: true
+  filters:
+    - cache-name: mensagemRateLimit
+      url: /mensagens*
+      filter-order: 100
+      rate-limits:
+        - execute-condition: "@segurancaService.estaAutenticado()"
+          expression: "@segurancaService.getUsuario()"
+          bandwidths:
+            - capacity: 5
+              time: 15
+              unit: seconds
+              fixed-refill-interval-unit: seconds
+              fixed-refill-interval: 30
+        - execute-condition: "@segurancaService.naoEstaAutenticado()"
+          expression: "getRemoteAddr()"
+          bandwidths:
+            - capacity: 5
+              time: 15
+              unit: seconds
+              fixed-refill-interval-unit: seconds
+              fixed-refill-interval: 30
