@@ -30,8 +30,6 @@ public class ProductRestController {
     public Product create(@RequestBody @Valid Product product,
             @AuthenticationPrincipal UserDetails userDetails
     ) {
-//        UserDetails userDetails = (UserDetails)
-//        SecurityContextHolder.getContext().getAuthentication().getPrincipal();
 
         product.setId(UUID.randomUUID());
         product.setCreatedByUser(userDetails.getUsername());

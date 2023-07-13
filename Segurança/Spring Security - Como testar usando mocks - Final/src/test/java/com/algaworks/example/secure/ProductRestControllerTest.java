@@ -54,9 +54,9 @@ class ProductRestControllerTest {
                 }
                 """;
         mvc.perform(
-                        post("/products")
-                                .contentType(MediaType.APPLICATION_JSON)
-                                .content(requestBody)
+                    post("/products")
+                            .contentType(MediaType.APPLICATION_JSON)
+                            .content(requestBody)
                 )
                 .andExpect(status().isForbidden());
     }
@@ -71,9 +71,9 @@ class ProductRestControllerTest {
                 }
                 """;
         mvc.perform(
-                        post("/products")
-                                .contentType(MediaType.APPLICATION_JSON)
-                                .content(requestBody)
+                    post("/products")
+                            .contentType(MediaType.APPLICATION_JSON)
+                            .content(requestBody)
                 )
                 .andExpect(status().isCreated());
     }
